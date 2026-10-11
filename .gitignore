@@ -1,0 +1,58 @@
+# Blender backups & autosave
+*.blend1
+*.blend2
+
+# Large / binary 3D interchange (keep local on D:)
+*.vrm
+*.glb
+*.gltf
+*.fbx
+*.obj
+*.usd
+*.usdz
+*.abc
+*.dae
+*.stl
+*.ply
+*.blend
+
+# Textures & caches (usually large)
+*.exr
+*.hdr
+*.tif
+*.tiff
+*.psd
+*.mb
+*.ma
+
+# Preview outputs (reference renders stay on PC; optional local only)
+# Uncomment if you never want previews in git:
+# previews/
+# *.png
+# *.jpg
+# *.jpeg
+# *.webp
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+.venv/
+venv/
+env/
+
+# OS & editors
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Logs & temp
+*.log
+tmp/
+temp/
